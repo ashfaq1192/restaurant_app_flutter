@@ -12,10 +12,9 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Restaurant Logo Image
+
             Image.asset('assets/logo.jpg', height: 300, width: 300),
 
-            // Restaurant Name
             Text('Welcome to Bannu Beef Pulao', style: TextStyle(fontSize: 20, color: Colors.red)),
 
             // Button to navigate to the Menu Page
